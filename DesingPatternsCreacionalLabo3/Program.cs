@@ -17,6 +17,8 @@ namespace DesingPatternsCreacionalLabo3
             LazySingletonProfesional.Instance.InsertProfessional(ChemicalEngineer);
             LazySingletonProfesional.Instance.InsertProfessional(CivilEngineer);
             LazySingletonProfesional.Instance.ShowListProfessionals();
+            LazySingletonProfesional.Instance.DeleteProfessional("carlos");
+            LazySingletonProfesional.Instance.ShowListProfessionals();
         }
     }
 }

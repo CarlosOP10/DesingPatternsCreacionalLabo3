@@ -32,5 +32,17 @@ namespace DesingPatternsCreacionalLabo3
                 Console.WriteLine("");
             }
         }
+        public bool DeleteProfessional(string name)
+        {
+            foreach(IProfessional professional in Professionals)
+            {
+                if(professional.Name==name)
+                {
+                    Professionals.Remove(professional);
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
