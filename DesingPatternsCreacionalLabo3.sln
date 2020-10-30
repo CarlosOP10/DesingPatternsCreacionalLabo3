@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatternsCreacionalLabo3", "DesingPatternsCreacionalLabo3\DesingPatternsCreacionalLabo3.csproj", "{489116D6-EE1C-48B4-AAE0-5AF22628CFD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{489116D6-EE1C-48B4-AAE0-5AF22628CFD3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{489116D6-EE1C-48B4-AAE0-5AF22628CFD3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{489116D6-EE1C-48B4-AAE0-5AF22628CFD3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{489116D6-EE1C-48B4-AAE0-5AF22628CFD3}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
