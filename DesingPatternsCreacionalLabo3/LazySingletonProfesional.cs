@@ -26,6 +26,7 @@ namespace DesingPatternsCreacionalLabo3
         }
         public void ShowListProfessionals()
         {
+            Console.WriteLine("-----LIST OF PROFESSIONALS----");
             foreach(IProfessional professional in Professionals)
             {
                 professional.ShowData();
@@ -43,6 +44,17 @@ namespace DesingPatternsCreacionalLabo3
                 }
             }
             return false;
+        }
+        public IProfessional FindProfessional(string name)
+        {
+            foreach (IProfessional professional in Professionals)
+            {
+                if (professional.Name == name)
+                {
+                    return professional;   
+                }
+            }
+            return null;
         }
     }
 }

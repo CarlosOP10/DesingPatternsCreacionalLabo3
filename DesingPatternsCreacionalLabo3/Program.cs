@@ -19,6 +19,7 @@ namespace DesingPatternsCreacionalLabo3
             LazySingletonProfesional.Instance.ShowListProfessionals();
             LazySingletonProfesional.Instance.DeleteProfessional("carlos");
             LazySingletonProfesional.Instance.ShowListProfessionals();
+            LazySingletonProfesional.Instance.FindProfessional("pedro").ShowData();
         }
     }
 }

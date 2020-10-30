@@ -1,2 +1,2 @@
 ﻿**Summary:**
-El problema consiste en elaborar una estructura de clases para registrar una lista de profesionales que se instancie una vez, y que se escalable, que durante el tiempo sea facil agregar mas profesionales si asi se require.
+El problema consiste en elaborar una estructura de clases para gestionar una lista de profesionales que se instancie una vez, y que se escalable, que durante el tiempo sea facil agregar mas profesionales si asi se require.
